@@ -6,27 +6,34 @@ namespace Nowy_folder
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
+            Console.WriteLine("Podaj nazwe: ");
+            string name1 = Console.ReadLine();
+
+            Console.WriteLine("Podaj nazwe: ");
+            string name2 = Console.ReadLine();
+
+            Game game = new Game(name1, name2);
         }
     }
 
-    class Game
+    public class Game
     {
         Player playerA;
         Player playerB;
+        
+        static Random rand = new Random();
+        private int randomNumber = rand.Next(0, 100);
 
-        private int randomNumber = Random.Range(0, 100);
-
-        Game(string nameA, string nameB)
+        public Game(string nameA, string nameB)
         {
-            playerA.Name = nameA;
-            playerB.Name = nameB;
+            playerA.name = nameA;
+            playerB.name = nameB;
         }
     }
 
     public struct Player
     {
-        string name;
-        int guess;
+        public string name;
+        public int guess;
     }
 }
