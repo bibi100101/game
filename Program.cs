@@ -26,8 +26,6 @@ namespace Nowy_folder
 
         List<int> guesses = new List<int>();
         
-        
-        
         public Game(string nameA, string nameB)
         {
             //daje imię graczom
