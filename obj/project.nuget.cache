@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6muN3APVXmEMlmIgD/OGb/VSJ3G9eHHb28BYyPqzpOPici+VqNmAg7lzKovSkxtMM4qQGzFRJEBbNtIH3csAQ==",
+  "dgSpecHash": "6HT6wqeGX4/vU+XGB9UfDMkY7k0PDCqQUKlcnub4J/xubgHQc4R6CUq9wqqtUpBW1bpH1nHIAWho6Ns3QnRndA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\Nowy folder.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\Nowy folder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

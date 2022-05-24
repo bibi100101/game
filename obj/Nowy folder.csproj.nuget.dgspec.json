@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\Nowy folder.csproj": {}
+    "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\Nowy folder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\Nowy folder.csproj": {
+    "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\Nowy folder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\Nowy folder.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\Nowy folder.csproj",
         "projectName": "Nowy folder",
-        "projectPath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\Nowy folder.csproj",
+        "projectPath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\Nowy folder.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Nowy folder\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\OneDrive\\Pulpit\\Projekty\\Skrypty\\C#\\Zgadywanie liczb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
